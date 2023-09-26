@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 
-function LinkButtom({ children, to }) {
+function LinkButton({ children, to }) {
   const navigate = useNavigate();
   const className = "text-sm text-blue-500 hover:text-blue-600 hover:underline";
 
@@ -16,4 +16,4 @@ function LinkButtom({ children, to }) {
     </Link>
   );
 }
-export default LinkButtom;
+export default LinkButton;
